@@ -1,0 +1,76 @@
+:root{
+    --color-grey:#ccc6c6d5;
+    --color-cream: #f1f09e;
+    --color-white: #f8f6f6e8;
+    --color-lightgrey: #ece3e3e8;
+}
+
+#main{
+display: flex;
+flex-direction: column;
+font-family: BlinkMacSystemFont, Helvetica;
+margin:auto;
+width: 100%;
+background: var(--color-white);
+background-image: url(president.jpg);
+background-position: center;
+background-size: cover;
+box-sizing:border-box;
+}
+
+#header{
+background: var(--color-cream);
+width:100%;
+text-align:center; 
+font-size: 1.5em;
+}
+
+.short{
+    background: var(--color-white);
+    text-align: center;
+    font-size: 1.5em;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    width:  100%;
+    
+}
+
+#img-caption{
+    margin-top:20px;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+#image{
+    width: 100%;
+    padding:0;
+    margin:0;
+    border:1px;
+    border-radius:5px;
+}
+
+.small-quote{
+    background: var(--color-grey);
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tribute-info{
+    background:var(--color-lightgrey);
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+.mycopy{
+    background: #302f2fec;
+}
+.heading2{
+    text-align: center;
+}
